@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.top-container {
+  background-color: #6943FF;
+  text-align: center;
+  overflow: auto;
+  /* come back for follow up
+  https://stackoverflow.com/questions/13573653/css-margin-terror-margin-adds-space-outside-parent-element
+  */
+}
+
+.header {
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.unit-input {
+  width: 200px;
+  border: 5px solid #B295FF;
+  border-radius: 8px;
+  background-color: transparent;
+  text-align: center;
+  font-size: 58px;
+  color: white;
+}
+
+.convert-btn {
+  display: block;
+  margin: 30px auto 30px auto;
+  background-color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 25px;
+  width: 200px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: #F4F4F4;
+}
+
+.output-container {
+  background-color: white;
+  padding: 20px;
+  margin: 0 20px;
+  width: 500px;
+  text-align: center;
+}
+
+.container-title {
+  color: #5A537B;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container-detail {
+  font-size: 14px;
+  padding: 10px;
+  color: #353535;
+}
